@@ -1,9 +1,6 @@
+<h1 align="center">_✨ 心灵鸡汤 ✨_</h1>
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
-</p>
-<div align="center">
-_✨ 心灵鸡汤 ✨_
-<br><br><a href="./LICENSE">
+<a href="./LICENSE">
     <img src="https://img.shields.io/github/license/Monarchdos/nonebot_plugin_soup.svg" alt="license">
 </a>
 <a href="https://pypi.python.org/pypi/nonebot_plugin_soup">
@@ -12,9 +9,7 @@ _✨ 心灵鸡汤 ✨_
 <a href="https://www.python.org">
     <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 </a>
-
-
-</div>
+</p>
 
 ## 📖 介绍
 
@@ -39,6 +34,11 @@ pip install nonebot-plugin-soup
 nonebot.load_plugin('nonebot_plugin_soup')
 ```
 
+**升级插件**  
+```bash
+pip install --upgrade nonebot-plugin-soup
+```
+
 ## 🎉 使用
 
 <table> 
@@ -57,17 +57,34 @@ nonebot.load_plugin('nonebot_plugin_soup')
 
 </table>
 
+## 📃 配置项
 
+直接在全局配置项`env.dev`后添加即可，配置项修改后重启NoneBot生效。
+
+#### 	chickensoup_reply_at
+
+类型：Bool
+
+默认值：True
+
+说明：是否开启机器人回复后艾特用户。
+
+```
+ chickensoup_reply_at=true
+```
 
 ## 📝 更新日志
 
 <details>
 <summary>展开/收起</summary>
 
-## **2023-01-11 V1.0.0**
+## **2024-07-15 V1.1.0**
 
+  * 优化代码结构.
+  * 新增机器人回复是否'@用户'的设置.
+
+## **2023-01-11 V1.0.0**
 
   * 插件发布~
 
 </details>
-
